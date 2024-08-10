@@ -8,6 +8,10 @@
   print(container.cor);
    print(container.largura);
 //Notação em cascata
+A notação em cascata (.., ?..) permite que você faça uma sequência de operações no mesmo objeto. 
+Além de acessar membros de instância, você também pode chamar métodos de instância no mesmo objeto. 
+Isso geralmente poupa a etapa de criar uma variável temporária e permite que você escreva um código mais fluido
+
   final container2 = Container()
   ..cor = "black"
   ..altura = 2.0
